@@ -31,16 +31,16 @@ export default function Home() {
         <section className="flex flex-col md:flex-row items-stretch gap-6 w-full rounded-xl bg-white px-4 md:px-8 py-8">
 
           {/* Text box */}
-          <div className="w-full md:w-[35%] px-6 py-8 rounded-xl shadow-lg flex flex-col justify-center h-[400px] md:h-[400px]">
-            <h1 className="text-3xl md:text-4xl font-bold gradient-heading mb-4">
+          <div className="w-full md:w-[35%] px-4 sm:px-6 py-6 md:py-8 rounded-xl shadow-lg flex flex-col justify-between">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold gradient-heading mb-4 text-center">
               WIC - COE in India
             </h1>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 mb-6 break-words text-sm sm:text-base text-justify">
               The Women in Cloud Center of Excellence empowers women with cloud technology skills, fosters innovation through labs, and bridges academic learning with industry job opportunities.
             </p>
             <div className="flex flex-col md:flex-row gap-4">
               <Button asChild>
-                <Link href="/internship" className="gap-2">
+                <Link href="/internship" className="flex items-center gap-2">
                   Join Our Program <ArrowRight size={16} />
                 </Link>
               </Button>
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
 
           {/* Carousel */}
-          <div className="w-full md:w-[65%] h-[400px] md:h-[400px] relative rounded-xl overflow-hidden">
+          <div className="w-full md:w-[65%] h-[250px] sm:h-[300px] md:h-[400px] relative rounded-xl overflow-hidden">
             <ImageCarousel images={carouselImages} height="h-full" width="w-full" />
           </div>
 
@@ -103,11 +103,11 @@ export default function Home() {
 
       <section className="bg-gradient-to-r from-primary to-accent text-white rounded-xl p-8 shadow-lg animate-fade-in animate-delay-200">
         <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">RVCE x WIC Collaboration</h2>
-        <p className="mb-4 max-w-3xl mx-auto text-center">
+        <p className="mb-4 max-w-3xl mx-auto text-justify">
           RVCE in collaboration with the Women in Cloud network has established a Center of Excellence with the main
           objective of empowering women on cloud technological skills and accelerating employability options.
         </p>
-        <p className="max-w-3xl mx-auto text-center">
+        <p className="max-w-3xl mx-auto text-justify">
           The Women in Cloud Center of Excellence in India at RV College of Engineering® aims to extend the benefits to
           beneficiaries across Karnataka state, in line with Engineering (R & D) policy 2021.
         </p>
@@ -223,7 +223,7 @@ export default function Home() {
                 <Calendar size={20} className="text-primary" />
                 <h3 className="font-semibold text-lg">WIC x INDIA 2026</h3>
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 Over 1000 women getting ready for DevSecOps Roles, 100+ women ready as executive leaders.
               </p>
             </CardContent>
@@ -235,7 +235,7 @@ export default function Home() {
                 <Users size={20} className="text-primary" />
                 <h3 className="font-semibold text-lg">WIC x Annual Tour 2026</h3>
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 Uniting Cloud and AI Leadership for Global Equity with the theme "Collective Contribution."
               </p>
             </CardContent>
@@ -247,7 +247,7 @@ export default function Home() {
                 <Lightbulb size={20} className="text-primary" />
                 <h3 className="font-semibold text-lg">WIC x Inspire 2026</h3>
               </div>
-              <p className="text-gray-700">
+              <p className="text-gray-700 text-justify">
                 AI-Fueled B2B GTM Summit for tech founders and leaders to explore advanced strategies.
               </p>
             </CardContent>

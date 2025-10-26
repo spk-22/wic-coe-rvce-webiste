@@ -128,17 +128,21 @@ export default function Support() {
           </p>
 
           {/* CORRECTED: Combined text and icon for proper horizontal display */}
-          <div className="flex items-center justify-center p-3 bg-white/20 rounded-lg border-2 border-white/50 mx-auto max-w-lg">
-            {/* The icon is correctly positioned before the text */}
-            <Mail size={20} className="mr-3 flex-shrink-0 text-white" />
-            <p className="text-lg font-bold">
-              Write to us at:
-              <a href="mailto:wic_rvinsidercircle@rvce.edu.in" className="hover:underline">
-                <span className="italic ml-1">wic_rvinsidercircle@rvce.edu.in</span>
+          <div className="inline-flex flex-col sm:flex-row items-center justify-center p-3 sm:px-6 bg-white/20 rounded-lg border-2 border-white/50 mx-auto text-center sm:text-left space-y-2 sm:space-y-0 sm:space-x-3">
+            {/* Icon */}
+            <Mail size={20} className="text-white flex-shrink-0" />
+
+            {/* Text */}
+            <p className="text-sm sm:text-base break-words">
+              Contact:{" "}
+              <a
+                href="mailto:wic_rvinsidercircle@rvce.edu.in"
+                className="hover:underline italic"
+              >
+                wic_rvinsidercircle@rvce.edu.in
               </a>
             </p>
           </div>
-
         </div>
       </section >
     </div >

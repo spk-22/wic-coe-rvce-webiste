@@ -4,7 +4,6 @@ import { useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Download, Clock, Laptop, ExternalLink, Server, Database, Code, Cloud } from "lucide-react"
-import Image from "next/image"
 import Link from "next/link"
 
 export default function Internship() {
@@ -17,66 +16,38 @@ export default function Internship() {
     <div className="space-y-12 pb-12">
 
       {/* ========================================================= */}
-      {/* SECTION 1: HERO/OVERVIEW CARD (Enhanced Shadow & Hover)   */}
+      {/* SECTION 1: HERO/OVERVIEW CARD */}
       {/* ========================================================= */}
-      <section className="p-6 md:p-10 rounded-2xl shadow-2xl bg-white/70 backdrop-blur-sm transition duration-500 hover:shadow-primary/40">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-center">
-          <div className="space-y-4 lg:col-span-2">
-            <div className="flex items-start gap-4 mb-2">
-              <h1 className="text-1l md:text-4xl font-extrabold text-primary leading-tight">
-                Women in Cloud Certified Internship UG/PG 2024
-              </h1>
-              <div className="relative h-16 w-16 flex-shrink-0">
-                {/* Ensure /images/wic-logo-white.png exists or use a local component */}
-                <Image src="/images/wic-logo-white.png" alt="Women in Cloud Logo" fill className="object-contain" />
-              </div>
-            </div>
-            <p className="text-lg text-gray-700 border-l-4 border-accent pl-4 italic">
+      <section className="p-4 sm:p-6 md:p-10 rounded-2xl">
+        <div className="relative min-h-[auto] sm:min-h-[250px] md:min-h-[300px] rounded-lg overflow-hidden shadow-2xl bg-gray-100 flex items-center justify-center py-8 sm:py-12 md:py-16">
+          <div className="text-center space-y-4 px-4 sm:px-6 md:px-8">
+            <h1 className="text-xl sm:text-2xl md:text-4xl font-extrabold text-primary leading-snug">
+              Women in Cloud Certified Internship UG/PG 2024
+            </h1>
+            <p className="text-gray-700 text-sm sm:text-base md:text-lg italic max-w-xl mx-auto">
               Become a <strong>Cloud & DevOps infrastructure design expert</strong>. Gain hands-on experience through real-world, industry-certified projects.
             </p>
-
-            {/* Key Information Badges */}
-            <div className="flex flex-wrap gap-3 text-sm text-gray-600 pt-2">
-              <span className="flex items-center gap-1 px-3 py-1 rounded-full bg-blue-50 border border-blue-200">
-                <Clock size={14} className="text-blue-600" /> 4-8 Weeks Program
-              </span>
-              <span className="flex items-center gap-1 px-3 py-1 rounded-full bg-blue-50 border border-blue-200">
-                <Laptop size={14} className="text-blue-600" /> UG/PG Engineering Students
-              </span>
-              <span className="flex items-center gap-1 px-3 py-1 rounded-full bg-blue-50 border border-blue-200">
-                <Cloud size={14} className="text-blue-600" /> Cloud & DevOps Focus
-              </span>
-            </div>
-
-            <div className="flex flex-wrap gap-4 pt-6">
-              <Button asChild className="shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02]">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6 mb-6 sm:mb-0">
+              <Button asChild className="shadow-lg hover:shadow-xl transition duration-300 transform hover:scale-[1.02] w-full sm:w-auto">
                 <a href="https://pages.razorpay.com/pl_OnpBI0F6P6HSGj/view" target="_blank" rel="noopener noreferrer">
                   Apply Now
                 </a>
               </Button>
-              <Button variant="outline" className="flex items-center gap-2 shadow-md hover:shadow-lg transition duration-300 transform hover:translate-y-[-2px]" asChild>
+              <Button variant="outline" asChild className="flex items-center gap-2 shadow-md hover:shadow-lg transition duration-300 transform hover:translate-y-[-2px] w-full sm:w-auto justify-center">
                 <a href="/documents/WiC Internships.pdf" download="WiC Internships.pdf">
                   <Download size={16} /> Download Syllabus
                 </a>
               </Button>
             </div>
           </div>
-
-          <div className="relative h-[250px] md:h-[300px] rounded-lg overflow-hidden shadow-2xl bg-gray-100 lg:col-span-1">
-            {/* Placeholder image needs to be replaced with actual image */}
-            <Image src="/placeholder.svg?height=300&width=500" alt="Cloud and DevOps" fill className="object-cover" />
-          </div>
         </div>
       </section>
 
-      {/* --- */}
-
       {/* ========================================================= */}
-      {/* SECTION 2: REGISTRATION PROCESS (3D Lift/Shadows)         */}
+      {/* SECTION 2: REGISTRATION PROCESS */}
       {/* ========================================================= */}
       <section className="p-6">
         <h2 className="text-3xl font-bold text-primary mb-8 text-center">Registration Process</h2>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 
           {/* STEP 1 */}
@@ -88,7 +59,7 @@ export default function Internship() {
                 </div>
               </div>
               <h3 className="font-bold text-xl text-center mb-2 text-primary">Submit Application</h3>
-              <ul className="list-disc pl-5 space-y-1 text-gray-700">
+              <ul className="list-disc pl-5 space-y-1 text-gray-700 text-justify">
                 <li>Complete your registration and payment using the Razorpay link provided ahead.</li>
               </ul>
             </CardContent>
@@ -103,7 +74,7 @@ export default function Internship() {
                 </div>
               </div>
               <h3 className="font-bold text-xl text-center mb-2 text-accent">Training Period</h3>
-              <ul className="list-disc pl-5 space-y-1 text-gray-700">
+              <ul className="list-disc pl-5 space-y-1 text-gray-700 text-justify">
                 <li>Undergo intensive training sessions and gain hands-on experience in M1 & M2 modules.</li>
               </ul>
             </CardContent>
@@ -118,22 +89,20 @@ export default function Internship() {
                 </div>
               </div>
               <h3 className="font-bold text-xl text-center mb-2 text-primary">Internship & Certification</h3>
-              <ul className="list-disc pl-5 space-y-1 text-gray-700">
+              <ul className="list-disc pl-5 space-y-1 text-gray-700 text-justify">
                 <li>Select projects after training and begin the internship within 1-2 weeks for final certification.</li>
               </ul>
             </CardContent>
           </Card>
+
         </div>
       </section>
 
-      {/* --- */}
-
       {/* ========================================================= */}
-      {/* SECTION 3: SKILLS COVERED (Clean separation, good padding)*/}
+      {/* SECTION 3: SKILLS COVERED */}
       {/* ========================================================= */}
       <section className="p-6 rounded-2xl bg-gray-50 shadow-inner">
         <h2 className="text-3xl font-bold text-primary mb-8 text-center">In-Depth Skills Covered</h2>
-
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="p-6 bg-white rounded-lg shadow-md border-t-4 border-primary hover:shadow-lg transition duration-300">
             <h3 className="text-2xl font-semibold text-primary mb-4 flex items-center gap-3">
@@ -161,59 +130,42 @@ export default function Internship() {
         </div>
       </section>
 
-      {/* --- */}
-
       {/* ========================================================= */}
-      {/* SECTION 4: FACILITY & INFRASTRUCTURE (Fixed BG)           */}
+      {/* SECTION 4: FACILITY & INFRASTRUCTURE */}
       {/* ========================================================= */}
       <section className="rounded-2xl overflow-hidden shadow-2xl">
-        {/* Background is now a light shade, giving contrast to the blue section below */}
         <div className="bg-gray-50 p-8">
           <h2 className="text-3xl font-bold mb-8 text-center text-primary border-b-2 border-primary/20 pb-2">Facility and Infrastructure</h2>
-
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-
-            {/* Infra Card 1 */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.05] border-t-4 border-primary">
               <div className="mx-auto w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4 ring-2 ring-primary/20">
-                {/* Icon Color: text-primary */}
                 <Cloud size={24} className="text-primary" />
               </div>
               <h3 className="font-extrabold mb-1 text-lg text-primary">Cloud Platforms</h3>
               <p className="text-sm text-gray-600">Microsoft Azure, IBM Cloud</p>
             </div>
-
-            {/* Infra Card 2 */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.05] border-t-4 border-accent">
               <div className="mx-auto w-12 h-12 flex items-center justify-center bg-accent/10 rounded-full mb-4 ring-2 ring-accent/20">
-                {/* Icon Color: text-accent */}
                 <Database size={24} className="text-accent" />
               </div>
               <h3 className="font-extrabold mb-1 text-lg text-accent">Databases</h3>
               <p className="text-sm text-gray-600">MongoDB, ELK Cloud</p>
             </div>
-
-            {/* Infra Card 3 */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.05] border-t-4 border-primary">
               <div className="mx-auto w-12 h-12 flex items-center justify-center bg-primary/10 rounded-full mb-4 ring-2 ring-primary/20">
-                {/* Icon Color: text-primary */}
                 <Code size={24} className="text-primary" />
               </div>
               <h3 className="font-extrabold mb-1 text-lg text-primary">Development</h3>
               <p className="text-sm text-gray-600">Docker, Python Flask, GitHub</p>
             </div>
-
-            {/* Infra Card 4 */}
             <div className="bg-white rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.05] border-t-4 border-accent">
               <div className="mx-auto w-12 h-12 flex items-center justify-center bg-accent/10 rounded-full mb-4 ring-2 ring-accent/20">
-                {/* Icon Color: text-accent */}
                 <Server size={24} className="text-accent" />
               </div>
               <h3 className="font-extrabold mb-1 text-lg text-accent">Hardware</h3>
               <p className="text-sm text-gray-600">Data Center Rack Server</p>
             </div>
           </div>
-
           <div className="mt-10 text-center max-w-3xl mx-auto">
             <p className="text-gray-700 italic text-lg border-t border-gray-300 pt-4">
               Our state-of-the-art infrastructure provides students with hands-on experience using industry-standard tools and technologies.
@@ -221,14 +173,12 @@ export default function Internship() {
           </div>
         </div>
       </section>
-      {/* --- */}
 
       {/* ========================================================= */}
-      {/* SECTION 5: PROGRAM FEES (Vibrant Gradient and Focus)      */}
+      {/* SECTION 5: PROGRAM FEES */}
       {/* ========================================================= */}
       <section className="bg-gradient-to-r from-accent to-primary text-white rounded-2xl p-8 shadow-2xl">
         <h2 className="text-2xl font-bold mb-6 text-center">Program Fees</h2>
-
         <div className="bg-white/10 p-6 rounded-xl border border-white/30 shadow-inner max-w-md mx-auto mb-6">
           <ul className="list-disc pl-6 space-y-2 text-lg">
             <li className="font-bold flex justify-between">
@@ -237,27 +187,22 @@ export default function Internship() {
             </li>
             <li className="font-bold flex justify-between border-t border-white/20 pt-2">
               <span>Total Payable (incl. 18% GST):</span>
-              <span className="text-l text-white">Rs. 3540/-</span>
+              <span className="text-xl text-white">Rs. 3540/-</span>
             </li>
           </ul>
         </div>
-
         <p className="mb-6 text-center text-white/90 max-w-3xl mx-auto">
-          This fee includes access to all the training sessions, project and internship completion, and the official<strong> Women in Cloud certification</strong> upon successful completion.
+          This fee includes access to all the training sessions, project and internship completion, and the official <strong>Women in Cloud certification</strong> upon successful completion.
         </p>
-
         <div className="text-center">
-          <Link
-            href="https://pages.razorpay.com/pl_OnpBI0F6P6HSGj/view"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link href="https://pages.razorpay.com/pl_OnpBI0F6P6HSGj/view" target="_blank" rel="noopener noreferrer">
             <Button className="bg-yellow-400 text-gray-900 font-bold text-lg px-8 py-3 shadow-xl hover:bg-yellow-300 transition duration-300 transform hover:scale-105">
               Secure Your Spot Now <ExternalLink size={18} className="ml-2" />
             </Button>
           </Link>
         </div>
       </section>
+
     </div>
   )
 }

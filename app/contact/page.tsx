@@ -28,7 +28,7 @@ export default function Contact() {
                   <Image src="/images/mamatha.png" alt="Dr. Mamatha G S" fill className="object-cover" />
                 </div>
                 <h2 className="text-xl font-semibold text-primary">Dr. Mamatha G S</h2>
-                <p className="text-gray-500">Head of Department of ISE & Professor</p>
+                <p className="text-gray-500">Professor and HoD, ISE</p>
               </div>
 
               <div className="space-y-4">
@@ -66,10 +66,10 @@ export default function Contact() {
             <CardContent className="p-8">
               <div className="flex flex-col items-center text-center mb-6">
                 <div className="relative w-24 h-24 rounded-full overflow-hidden border-4 border-primary/10 shadow-md mb-4">
-                  <Image src="/images/sagar.png" alt="Dr. B M Sagar" fill className="object-cover" />
+                  <Image src="/images/bm-sagar-new2.jpeg" alt="Dr. B M Sagar" fill className="object-cover" />
                 </div>
                 <h2 className="text-xl font-semibold text-primary">Dr. B M Sagar</h2>
-                <p className="text-gray-500">Dean Student Affairs and Professor</p>
+                <p className="text-gray-500">Professor and Dean Student Affairs</p>
               </div>
 
               <div className="space-y-4">
@@ -104,17 +104,21 @@ export default function Contact() {
         </div>
 
         {/* NEW CONTACT LINE ADDED HERE */}
-        <div className="mt-10 p-6 bg-primary/5 rounded-xl text-center shadow-inner">
-          <p className="text-gray-800 text-lg">
-            You can contact us directly at our official email address:
-            <a href="mailto:wic_rvinsidercircle@rvce.edu.in" className="text-primary font-bold hover:underline ml-1">
-              wic_rvinsidercircle@rvce.edu.in
-            </a>
-            . We'd love to hear from you!
+        <div className="mt-10 p-4 sm:p-6 bg-primary/5 rounded-xl text-center shadow-inner max-w-md mx-auto">
+          <p className="text-gray-800 text-sm sm:text-base break-words mb-2">
+            Contact us at:
+          </p>
+          <a
+            href="mailto:wic_rvinsidercircle@rvce.edu.in"
+            className="text-primary font-medium hover:underline break-words"
+          >
+            wic_rvinsidercircle@rvce.edu.in
+          </a>
+          <p className="text-gray-800 text-sm sm:text-base break-words mt-2">
+            We'd love to hear from you!
           </p>
         </div>
-
-      </section>
+      </section >
 
       <section className="section-container p-8 animate-fade-in animate-delay-100">
         <h2 className="text-2xl font-semibold gradient-heading mb-6 text-center">Visit Us</h2>
@@ -141,6 +145,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </div>
+    </div >
   )
 }

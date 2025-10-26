@@ -81,11 +81,11 @@ export default function InsiderCircle() {
             <div className="bg-gradient-to-r from-primary to-accent h-1.5" />
             <CardContent className="p-6 text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary/10 shadow-md">
-                <Image src="/images/mamatha-gs-new.png" alt="Dr. Mamatha G S" fill className="object-cover" />
+                <Image src="/images/mamatha-gs-new2.png" alt="Dr. Mamatha G S" fill className="object-cover" />
               </div>
               <h3 className="font-semibold text-lg text-primary mb-1">Dr. Mamatha G S</h3>
               <p className="text-sm text-gray-600 mb-2">Faculty Coordinator</p>
-              <p className="text-sm text-gray-700">Head of Department of ISE & Professor</p>
+              <p className="text-sm text-gray-700">Professor and HoD, ISE</p>
             </CardContent>
           </Card>
 
@@ -93,11 +93,11 @@ export default function InsiderCircle() {
             <div className="bg-gradient-to-r from-primary to-accent h-1.5" />
             <CardContent className="p-6 text-center">
               <div className="relative w-32 h-32 mx-auto mb-4 rounded-full overflow-hidden border-4 border-primary/10 shadow-md">
-                <Image src="/images/bm-sagar-new.png" alt="Dr. B M Sagar" fill className="object-cover" />
+                <Image src="/images/bm-sagar-new2.jpeg" alt="Dr. B M Sagar" fill className="object-cover" />
               </div>
               <h3 className="font-semibold text-lg text-primary mb-1">Dr. B M Sagar</h3>
               <p className="text-sm text-gray-600 mb-2">Faculty Coordinator</p>
-              <p className="text-sm text-gray-700">Dean Student Affairs and Professor</p>
+              <p className="text-sm text-gray-700">Professor and Dean Student Affairs</p>
             </CardContent>
           </Card>
         </div>
@@ -311,7 +311,7 @@ export default function InsiderCircle() {
       <section className="section-container p-8 animate-fade-in animate-delay-400">
         <h2 className="text-3xl font-bold text-primary mb-6 text-center border-b-2 border-primary/20 pb-2">SOCIAL WING</h2>
 
-        <p className="mb-8 text-lg text-gray-700 max-w-4xl mx-auto text-center">
+        <p className="mb-8 text-lg text-gray-700 max-w-4xl mx-auto text-justify">
           Focuses on empowering women through community-driven initiatives in holistic development. This includes
           workshops for artisans to leverage tech, digital skilling for underprivileged students.
         </p>
@@ -331,7 +331,7 @@ export default function InsiderCircle() {
                 </svg>
                 <h3 className="text-xl text-accent">Women Empowerment Workshops</h3>
               </div>
-              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <ul className="list-disc pl-5 space-y-2 text-gray-700 text-justify">
                 <li>
                   Hold workshops and informative sessions of artisans, bakers and small business owners to enable them
                   to leverage tech to enhance their business and outreach.
@@ -355,7 +355,7 @@ export default function InsiderCircle() {
                   Digital Skilling for the underprivileged
                 </h3>
               </div>
-              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <ul className="list-disc pl-5 space-y-2 text-gray-700 text-justify">
                 <li>
                   Conduct workshops for middle school and high school students related to Computer science and the tech
                   world.
@@ -369,7 +369,7 @@ export default function InsiderCircle() {
       <section className="section-container p-8 animate-fade-in animate-delay-300">
         <h2 className="text-3xl font-bold text-primary mb-6 text-center border-b-2 border-primary/20 pb-2">TECHNICAL WING</h2>
 
-        <p className="mb-8 text-lg text-gray-700 max-w-4xl mx-auto text-center">
+        <p className="mb-8 text-lg text-gray-700 max-w-4xl mx-auto text-justify">
           Focuses more on gaining practical insights, connecting with industry professionals and peers and receive
           personalized feedback. Includes exploring and experiencing various roles in corporate sector such as
           marketing, finance and IT.
@@ -429,7 +429,7 @@ export default function InsiderCircle() {
                 </svg>
               </div>
               <h3 className="text-xl font-bold text-primary mb-4 text-center">MONTHLY TECH TALK SERIES</h3>
-              <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <ul className="list-disc pl-5 space-y-2 text-gray-700 text-justify">
                 <li>
                   Invite notable women from the tech industry along with successful alumni from RVCE to give keynote
                   speeches.

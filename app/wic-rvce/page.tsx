@@ -29,12 +29,12 @@ export default function WicRvce() {
 
       <section className="feature-card">
         <h2 className="text-2xl font-semibold text-primary mb-6 text-center">WIC - RVCE Collaboration</h2>
-        <p className="text-gray-700 mb-4">
+        <p className="text-gray-700 mb-4 text-justify">
           Women in Cloud is a community-led economic development organization taking action to generate $1B in net new
           global economic access for women entrepreneurs by 2030 through partnerships with corporations, community
           leaders, and policymakers.
         </p>
-        <p className="text-gray-700">
+        <p className="text-gray-700 text-justify">
           RVCE in collaboration with the Women in Cloud network has established a Center of Excellence with the main
           objective of empowering women on cloud technological skills and accelerating employability options.
         </p>
@@ -76,7 +76,7 @@ export default function WicRvce() {
               </div>
               <h2 className="text-2xl font-semibold text-white">Our Mission</h2>
             </div>
-            <ul className="list-none pl-10 space-y-3">
+            <ul className="list-none pl-10 space-y-3 text-justify">
               {[
                 "To train and empower women in cloud technological skills and employability.",
                 "To promote internship and applied research in academic program.",
@@ -99,7 +99,7 @@ export default function WicRvce() {
         <h2 className="text-2xl font-semibold text-primary mb-6 text-center">About Us</h2>
 
         {/* MOVED STYLES from inner div to outer section for a clean look */}
-        <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-sm">
+        <div className="bg-white/80 backdrop-blur-sm rounded-lg p-6 shadow-sm text-justify">
           <p className="text-gray-700 mb-4">
             Women in Cloud Center of Excellence in India at RV College of Engineering® in association with Women in
             Cloud (WIC), USA would like to extend the benefits of the CoE to the beneficiaries across Karnataka state.

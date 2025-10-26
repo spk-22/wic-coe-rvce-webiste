@@ -20,13 +20,13 @@ export default function WicCoeIndia() {
         </h1>
 
         <div className="bg-white rounded-lg p-6 shadow-md mb-10">
-          <p className="text-gray-700 mb-4">
+          <p className="text-gray-700 mb-4 text-justify">
             The Women in Cloud Center of Excellence in India at RV College of Engineering® in association with Women in
             Cloud (WIC), USA extends the benefits of the CoE to beneficiaries across Karnataka state. The objectives
             align with Engineering (R&D) policy 2021, including innovation lab programs to encourage open innovation,
             boost the Engineering R&D ecosystem, and provide recruitment assistance.
           </p>
-          <p className="text-gray-700">
+          <p className="text-gray-700 text-justify">
             WIC is a community-led economic development organization taking action to generate $1B in net new global
             economic access for women entrepreneurs by 2030 through partnerships with corporations, community leaders,
             and policymakers.
@@ -42,15 +42,22 @@ export default function WicCoeIndia() {
               <Card className="overflow-hidden border-primary/10">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[150px] sm:h-full">
-                      <Image src="/images/mamatha-gs-new2.png" alt="Dr. G S Mamatha" fill className="object-cover" />
+                    {/* Example for Dr. G S Mamatha */}
+                    <div className="relative w-[150px] h-[150px] sm:w-[120px] sm:h-[120px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/mamatha-gs-new2.png"
+                        alt="Dr. G S Mamatha"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-4">
+
+                    <div className="col-span-2 p-4 text-center">
                       <h3 className="font-semibold text-md text-primary mb-1">Dr. G S Mamatha</h3>
                       <p className="text-xs text-gray-500 mb-3">mamathags@rvce.edu.in</p>
                       <div className="space-y-2">
                         <p className="font-medium text-primary text-sm">Main Coordinator</p>
-                        <p className="text-gray-700 text-sm">Professor & Associate Dean (PG Studies), ISE</p>
+                        <p className="text-gray-700 text-sm">Professor & HoD, ISE</p>
                       </div>
                       <div className="mt-4 pt-4 border-t border-gray-100">
                         <Link
@@ -71,15 +78,20 @@ export default function WicCoeIndia() {
               <Card className="overflow-hidden border-primary/10">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[150px] sm:h-full">
-                      <Image src="/images/bm-sagar-new2.jpeg" alt="Dr. B M Sagar" fill className="object-cover" />
+                    <div className="relative w-[150px] h-[150px] sm:w-[120px] sm:h-[120px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/bm-sagar-new2.jpeg"
+                        alt="Dr. B M Sagar"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-4">
+                    <div className="col-span-2 p-4 text-center">
                       <h3 className="font-semibold text-md text-primary mb-1">Dr. B M Sagar</h3>
                       <p className="text-xs text-gray-500 mb-3">sagarbm@rvce.edu.in</p>
                       <div className="space-y-2">
                         <p className="font-medium text-primary text-sm">Faculty Coordinator</p>
-                        <p className="text-gray-700 text-sm">Professor & HoD, ISE</p>
+                        <p className="text-gray-700 text-sm">Professor & Dean, Student Affairs</p>
                       </div>
                       <div className="mt-4 pt-4 border-t border-gray-100">
                         <Link
@@ -100,10 +112,15 @@ export default function WicCoeIndia() {
               <Card className="overflow-hidden border-primary/10">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[150px] sm:h-full">
-                      <Image src="/images/usha-j-new.jpeg" alt="Dr. Usha J" fill className="object-cover" />
+                    <div className="relative w-[150px] h-[150px] sm:w-[120px] sm:h-[120px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/usha-j-new.jpeg"
+                        alt="Dr. Usha J"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-4">
+                    <div className="col-span-2 p-4 text-center">
                       <h3 className="font-semibold text-md text-primary mb-1">Dr. Usha J</h3>
                       <p className="text-xs text-gray-500 mb-3">ushaj@rvce.edu.in</p>
                       <div className="space-y-2">
@@ -130,10 +147,15 @@ export default function WicCoeIndia() {
               <Card className=" w-[280px] overflow-hidden border-primary/10 max-w-sm mx-auto">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[100px] sm:h-full">
-                      <Image src="/images/rashmi-r-new.png" alt="Prof. Rashmi R" fill className="object-cover" />
+                    <div className="relative w-[100px] h-[100px] sm:w-[80px] sm:h-[80px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/rashmi-r-new.png"
+                        alt="Prof. Rashmi R"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-2">
+                    <div className="col-span-2 p-2 text-center">
                       <h3 className="font-semibold text-xs text-primary mb-1">Prof. Rashmi R</h3>
                       <p className="text-xs text-gray-500 mb-2">rashmir@rvce.edu.in</p>
                       <div className="space-y-1">
@@ -159,10 +181,15 @@ export default function WicCoeIndia() {
               <Card className="w-[280px] overflow-hidden border-primary/10 max-w-sm mx-auto">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[100px] sm:h-full">
-                      <Image src="/images/ashwini-kb.png" alt="Dr. Ashwini K.B" fill className="object-cover" />
+                    <div className="relative w-[100px] h-[100px] sm:w-[80px] sm:h-[80px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/ashwini-kb.png"
+                        alt="Dr. Ashwini K.B"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-2">
+                    <div className="col-span-2 p-2 text-center">
                       <h3 className="font-semibold text-xs text-primary mb-1">Dr. Ashwini K.B</h3>
                       <p className="text-xs text-gray-500 mb-2">ashwinikb@rvce.edu.in</p>
                       <div className="space-y-1">
@@ -188,10 +215,15 @@ export default function WicCoeIndia() {
               <Card className="w-[280px] overflow-hidden border-primary/10 max-w-sm mx-auto">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[100px] sm:h-full">
-                      <Image src="/images/bk-srinivas-new.png" alt="B K Srinivas" fill className="object-cover" />
+                    <div className="relative w-[100px] h-[100px] sm:w-[80px] sm:h-[80px] mx-auto sm:mx-0 rounded-full overflow-hidden">
+                      <Image
+                        src="/images/bk-srinivas-new.png"
+                        alt="B K Srinivas"
+                        fill
+                        className="object-cover"
+                      />
                     </div>
-                    <div className="col-span-2 p-2">
+                    <div className="col-span-2 p-2 text-center">
                       <h3 className="font-semibold text-xs text-primary mb-1">B K Srinivas</h3>
                       <p className="text-xs text-gray-500 mb-2">bksrinivas@rvce.edu.in</p>
                       <div className="space-y-1">
@@ -217,7 +249,7 @@ export default function WicCoeIndia() {
               <Card className="w-[280px] overflow-hidden border-primary/10 max-w-sm mx-auto">
                 <CardContent className="p-0">
                   <div className="grid grid-cols-1 sm:grid-cols-3">
-                    <div className="relative h-[100px] sm:h-full">
+                    <div className="relative w-[100px] h-[100px] sm:w-[80px] sm:h-[80px] mx-auto sm:mx-0 rounded-full overflow-hidden">
                       <Image
                         src="/images/ashok-kumar-new.jpeg"
                         alt="Dr. Ashok Kumar A R"
@@ -225,7 +257,7 @@ export default function WicCoeIndia() {
                         className="object-cover"
                       />
                     </div>
-                    <div className="col-span-2 p-2">
+                    <div className="col-span-2 p-2 text-center">
                       <h3 className="font-semibold text-xs text-primary mb-1">Dr. Ashok Kumar A R</h3>
                       <p className="text-xs text-gray-500 mb-2">ashokkumarar@rvce.edu.in</p>
                       <div className="space-y-1">
@@ -258,18 +290,18 @@ export default function WicCoeIndia() {
               <table className="w-full border-collapse bg-white rounded-lg shadow-sm">
                 <thead>
                   <tr className="bg-gradient-to-r from-primary to-accent text-white">
-                    <th className="border border-primary/20 p-3 text-left">Name</th>
-                    <th className="border border-primary/20 p-3 text-left">Designation</th>
-                    <th className="border border-primary/20 p-3 text-left">Email</th>
-                    <th className="border border-primary/20 p-3 text-left">Profile</th>
+                    <th className="border border-primary/20 p-3 text-center">Name</th>
+                    <th className="border border-primary/20 p-3 text-center">Designation</th>
+                    <th className="border border-primary/20 p-3 text-center">Email</th>
+                    <th className="border border-primary/20 p-3 text-center">Profile</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="hover:bg-primary/5 transition-colors">
-                    <td className="border border-primary/20 p-3 font-medium">Dr. K N Subramanya</td>
-                    <td className="border border-primary/20 p-3">Principal</td>
-                    <td className="border border-primary/20 p-3">principal@rvce.edu.in</td>
-                    <td className="border border-primary/20 p-3">
+                    <td className="border border-primary/20 p-3 font-medium text-center">Dr. K N Subramanya</td>
+                    <td className="border border-primary/20 p-3 text-center">Principal</td>
+                    <td className="border border-primary/20 p-3 text-center">principal@rvce.edu.in</td>
+                    <td className="border border-primary/20 p-3 text-center">
                       <Link
                         href="https://rvce.edu.in/im-knsubramanya"
                         target="_blank"
@@ -281,10 +313,10 @@ export default function WicCoeIndia() {
                     </td>
                   </tr>
                   <tr className="bg-primary/5 hover:bg-primary/10 transition-colors">
-                    <td className="border border-primary/20 p-3 font-medium">Dr. Geetha K S</td>
-                    <td className="border border-primary/20 p-3">Vice Principal</td>
-                    <td className="border border-primary/20 p-3">geethaks@rvce.edu.in</td>
-                    <td className="border border-primary/20 p-3">
+                    <td className="border border-primary/20 p-3 font-medium text-center">Dr. Geetha K S</td>
+                    <td className="border border-primary/20 p-3 text-center">Vice Principal</td>
+                    <td className="border border-primary/20 p-3 text-center">geethaks@rvce.edu.in</td>
+                    <td className="border border-primary/20 p-3 text-center">
                       <Link
                         href="https://rvce.edu.in/ec-geetha"
                         target="_blank"
@@ -296,10 +328,10 @@ export default function WicCoeIndia() {
                     </td>
                   </tr>
                   <tr className="hover:bg-primary/5 transition-colors">
-                    <td className="border border-primary/20 p-3 font-medium">Dr. Ramakanth Kumar P</td>
-                    <td className="border border-primary/20 p-3">Professor & HoD, CSE</td>
-                    <td className="border border-primary/20 p-3">ramakanthkp@rvce.edu.in</td>
-                    <td className="border border-primary/20 p-3">
+                    <td className="border border-primary/20 p-3 font-medium text-center">Dr. Ramakanth Kumar P</td>
+                    <td className="border border-primary/20 p-3 text-center">Professor & Dean CSE Cluster</td>
+                    <td className="border border-primary/20 p-3 text-center">ramakanthkp@rvce.edu.in</td>
+                    <td className="border border-primary/20 p-3 text-center">
                       <Link
                         href="https://rvce.edu.in/ise-rmp-it"
                         target="_blank"
@@ -311,10 +343,10 @@ export default function WicCoeIndia() {
                     </td>
                   </tr>
                   <tr className="bg-primary/5 hover:bg-primary/10 transition-colors">
-                    <td className="border border-primary/20 p-3 font-medium">Dr. Andhe Dharani</td>
-                    <td className="border border-primary/20 p-3">Professor & HoD, MCA</td>
-                    <td className="border border-primary/20 p-3">andhedharani@rvce.edu.in</td>
-                    <td className="border border-primary/20 p-3">
+                    <td className="border border-primary/20 p-3 font-medium text-center">Dr. Andhe Dharani</td>
+                    <td className="border border-primary/20 p-3 text-center">Professor, MCA</td>
+                    <td className="border border-primary/20 p-3 text-center">andhedharani@rvce.edu.in</td>
+                    <td className="border border-primary/20 p-3 text-center">
                       <Link
                         href="https://rvce.edu.in/mca-faculty-ad"
                         target="_blank"

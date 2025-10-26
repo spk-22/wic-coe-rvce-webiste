@@ -44,7 +44,7 @@ export default function MarqueeText({ direction = "rtl" }: MarqueeTextProps) {
   return (
     <div className="overflow-hidden whitespace-nowrap">
       <div ref={marqueeRef} className="inline-block" style={{ transition: "transform 0.03s linear" }}>
-        <Link href="#" className="mx-4 hover:underline font-medium">
+        <Link href="/events" className="mx-4 hover:underline font-medium">
           ✨ Upcoming Events!
         </Link>
         <Link
