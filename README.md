@@ -24,19 +24,6 @@ The website aims to showcase:
 - Configuration files:  
   - `tsconfig.json`, `next.config.mjs`, `tailwind.config.ts`, `postcss.config.mjs`
 
-## Folder Structure  
-wic-coe-rvce-website/
-├─ app/
-├─ components/
-├─ hooks/
-├─ lib/
-├─ public/
-├─ styles/
-├─ next.config.mjs
-├─ tailwind.config.ts
-├─ tsconfig.json
-├─ package.json
-└─ pnpm-lock.yaml (or package-lock.json)
 
 *Note: Some files/folders may vary as the project evolves.*
 
